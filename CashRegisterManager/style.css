@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+body{
+    background-color: #F3F4F6;
+}
+.container{
+    max-width: 500px;
+    width: 95%;
+    margin: 20px auto;
+    background-color: #9F1239;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+}
+.title{
+    margin: 20px auto;
+}
+
+.description{
+    margin-bottom: 40px;
+}
+
+.label{
+    display: block;
+}
+.input{
+    max-width: 350px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding:  10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+:focus-visible{
+    outline: none;
+}
+.check-btn{
+    display: block;
+    padding: 8px 12px;
+    margin: 10px auto 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    color: #BE123C;
+    font-size: 16px;
+    font-weight: 600;
+}
+.check-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.cash-table{
+    margin-top: 40px;
+}
+
+.change-table{
+    width: 95%;
+    margin: auto;
+}
+.change-table caption{
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+table{
+    padding: 0;
+    column-gap: 0;
+    border-spacing: 0;
+    border: 1px solid rgba(0, 0, 0, 0.76);
+    color: black;
+    font-weight: 600;
+}
+th, td{
+    border: 1px solid rgba(0, 0, 0, 0.76);
+    width: 50px;
+    padding: 10px;
+}
+th{
+    background-color: #fecdd385;
+}
+tr:last-child td{
+    background-color: #fecdd385
+}
+tr:first-child td{
+    background-color: white;
+}
+.message{
+    margin-top: 10px;
+}

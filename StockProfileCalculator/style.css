@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+
+:root{
+    --blue : #4F46E5;
+    --red: #DC2626;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.container{
+    max-width: 600px;
+    width: 95%;
+    margin: 20px auto;
+    color : black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+}
+.title{
+    margin: auto;
+    font-size: 39px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    text-shadow: 1px 1px  #000000;
+}
+
+.label{
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.input{
+    max-width: 300px;
+    width: 90%;
+    margin-bottom: 30px;
+    padding:  10px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+    margin-top: 10px;
+    font-size: 16px;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: bolder;
+}
+:focus-visible{
+    outline: none;
+}
+.check-btn{
+    display: block;
+    padding: 8px 12px;
+    margin: 10px auto 0 auto;
+    background-color: var(--blue);
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid var(--blue);
+}
+.check-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 3px 8px;
+    cursor: pointer;
+}
+input::selection, input:hover, input:focus{
+    box-shadow: rgba(0, 0, 0, 0.253) 0px 3px 8px;
+}
+
+.message{
+    padding: 20px;
+    max-width: 300px;
+    width: 90%;
+    margin:auto;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 19px;
+    display: none;
+    font-weight: bolder;
+}
+
+footer{
+    max-width: 300px;
+    width:90%;
+    margin:auto;
+    display: flex;
+    font-size: 34px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+footer a{
+    color: var(--blue);
+}

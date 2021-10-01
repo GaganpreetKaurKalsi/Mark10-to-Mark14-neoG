@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register Manager</title>
+    <script src="https://kit.fontawesome.com/d733855d1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <container class="container">
+        <h1 class="title">Cash Register Manager</h1>
+        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
+
+        <div class="input-field-container">
+            <label for="bill-amount" class="label">Bill Amount</label>
+            <input class="input" type="text" name="bill-amount" id="bill-amount">
+            <label for="cash-given" class="label">Cash Given</label>
+            <input class="input" type="text" name="cash-given" id="cash-given">
+
+            <button class="check-btn" onclick="calculate()">Check</button>
+        </div>
+        <div class="message"></div>
+        <div class="cash-table">
+            <table class="change-table">
+                <caption>Return Change</caption>
+                <tr>
+                    <th>No. of Notes</th>
+                    <td class="note-2000 cell"></td>
+                    <td class="note-500 cell"></td>
+                    <td class="note-100 cell"></td>
+                    <td class="note-20 cell"></td>
+                    <td class="note-10 cell"></td>
+                    <td class="note-5 cell"></td>
+                    <td class="note-1 cell"></td>
+                </tr>
+                <tr>
+                    <th>Notes</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+
+    </container>
+    
+    <script src="index.js"></script>
+</body>
+</html>

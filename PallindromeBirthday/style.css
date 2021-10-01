@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.container{
+    max-width: 500px;
+    width: 95%;
+    margin: 20px auto;
+    color : black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    font-weight: 600;
+}
+.title{
+    margin: auto;
+    font-size: 39px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.description{
+    margin-bottom: 40px;
+}
+
+.label{
+    display: block;
+}
+.input{
+    max-width: 200px;
+    width: 90%;
+    margin-bottom: 20px;
+    padding:  10px 20px;
+    border-radius: 10px;
+    border: 3px solid #059669;
+    margin-top: 20px;
+    font-size: 16px;
+}
+::placeholder{
+    font-size: 16px;
+}
+:focus-visible{
+    outline: none;
+}
+.check-btn{
+    display: block;
+    padding: 8px 12px;
+    margin: 10px auto 0 auto;
+    background-color: #059669;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #059669;
+}
+.check-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.message{
+    padding: 40px 40px;
+    background-color: #FDE68A;
+    max-width: 300px;
+    width: 90%;
+    margin:auto;
+    margin-top: 60px;
+    font-style: italic;
+    font-size: 19px;
+}
+
+footer{
+    max-width: 300px;
+    width:90%;
+    margin:auto;
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+}
+i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+footer a{
+    color: #059669;
+}
