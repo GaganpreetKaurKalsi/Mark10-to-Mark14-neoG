@@ -9,15 +9,22 @@
 
 ![image](https://user-images.githubusercontent.com/54144759/176833521-2a4d7035-ac1c-4475-9259-e88dc67fb846.png)
 
+<br>
+
 ## Palindrome Birthday
 ### Live URL - https://palindromebirthdayneog.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/54144759/176834324-ba23bd6a-43f4-4195-99b9-efc17db717c4.png)
 
+<br>
+
 ## Birthday | Lucky or Not
 ### Live URL - https://luckybirthdayneog.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/54144759/176834490-4774f083-1be3-4ae5-833f-43a722b61885.png)
+
+<br>
+
 
 ## Cash Register
 ### Live URL - https://cashregistermanagerneog.netlify.app/
